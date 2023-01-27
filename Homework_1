@@ -30,6 +30,14 @@ for i in range(len(num_list)):
     result += int(num_list[i])
 print(result)
 
+# task number 5
+for i in range(5):
+    if i == 0 or i == 4:
+        print("******")
+    if i == 1 or i == 2:
+        print(" *    *")
+    if i == 3:
+        print("*    *")
     
     
     
