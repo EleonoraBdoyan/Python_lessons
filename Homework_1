@@ -1,5 +1,40 @@
-num = input("Enter a nimber.")
-    if num % 2 == 0:
+# task number 1
+num = int(input("Enter a nimber."))
+if num % 2 == 0:
     print("The number is even.")
-    else:
+else:
     print("The number is odd")
+ 
+ 
+# task number 2
+letter = input("Enter a letter.")
+if letter in "a,o,u,i,e,y":
+    print("The letter is a vowel.")
+else:
+    print("The letter is a consonant")
+    
+# task number 3
+num = int(input("Enter a number."))
+fib_1 = 0
+fib_2 = 1
+for i in range(num-2):
+    fib_res = fib_1 + fib_2
+    fib_1, fib_2 = fib_2, fib_res
+print(fib_res)
+
+# task number 4
+num = input("Enter a number.")
+result = 0
+num_list = list(num)
+for i in range(len(num_list)):
+    result += int(num_list[i])
+print(result)
+
+    
+    
+    
+    
+    
+        
+        
+ 
